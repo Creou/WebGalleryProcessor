@@ -2,7 +2,7 @@
 Web Gallery Processor
 =====================
 
-Web Gallery Processor is a .Net library that processes directories of images and builds thumbnails, cover images and data models for online gallery pages. Targeted for use by ASP.NET MVC websites WGP automates the process of gallery generation
+Web Gallery Processor is a .Net library that processes directories of images and builds thumbnails, cover images and data models for online gallery pages. Targeted for use by ASP.NET MVC websites WGP automates the process of gallery generation.
 
 ===
 
