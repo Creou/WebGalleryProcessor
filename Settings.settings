@@ -1,0 +1,102 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WebGalleryProcessor" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Feed_TitleFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">{0} - Galleries</Value>
+    </Setting>
+    <Setting Name="Feed_DescriptionFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Galleries on {0}</Value>
+    </Setting>
+    <Setting Name="Feed_IdFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">{0}Galleries</Value>
+    </Setting>
+    <Setting Name="Folders_OringinalImages" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">OriginalImages</Value>
+    </Setting>
+    <Setting Name="Folders_ScaledImages" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ScaledImages</Value>
+    </Setting>
+    <Setting Name="Folders_Thumbs" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Thumbs</Value>
+    </Setting>
+    <Setting Name="Zip_FileNameFormat_LowQuality" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">{0}-LQ.zip</Value>
+    </Setting>
+    <Setting Name="Zip_FileNameFormat_HighQuality" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">{0}-HQ.zip</Value>
+    </Setting>
+    <Setting Name="File_GalleryDataFileNameFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">GalleryData{0}.xml</Value>
+    </Setting>
+    <Setting Name="File_GalleryCoverFileName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">GalleryCover.jpg</Value>
+    </Setting>
+    <Setting Name="Http_GalleryHttpPathFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">{0}/Galleries/{1}/</Value>
+    </Setting>
+    <Setting Name="Http_GalleriesIndexHttpPathFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">{0}/Galleries/</Value>
+    </Setting>
+    <Setting Name="Image_FileTypeFilter" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">*.jpg</Value>
+    </Setting>
+    <Setting Name="ImageProcess_Default_ScaledImageScaleMode" Type="WebGalleryProcessor.ScaleMode" Scope="Application">
+      <Value Profile="(Default)">MaxDimensions</Value>
+    </Setting>
+    <Setting Name="ImageProcess_Default_ScaledImageWidth" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">800</Value>
+    </Setting>
+    <Setting Name="ImageProcess_Default_ScaledImageHeight" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">800</Value>
+    </Setting>
+    <Setting Name="ImageProcess_Default_ThumbScaleMode" Type="WebGalleryProcessor.ScaleMode" Scope="Application">
+      <Value Profile="(Default)">FixedHeight</Value>
+    </Setting>
+    <Setting Name="ImageProcess_Default_ThumbWidth" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="ImageProcess_Default_ThumbHeight" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="CoverRender_Default_ImageRotationMax" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">20</Value>
+    </Setting>
+    <Setting Name="CoverRender_Default_ImageRotationMin" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">-20</Value>
+    </Setting>
+    <Setting Name="CoverRender_Default_TitleRotationMax" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="CoverRender_Default_TitleRotationMin" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">-5</Value>
+    </Setting>
+    <Setting Name="CoverRender_Default_TitleOffsetXMin" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="CoverRender_Default_TitleOffsetXMax" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="CoverRender_Default_TitleOffsetYMin" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">-20</Value>
+    </Setting>
+    <Setting Name="CoverRender_Default_TitleOffsetYMax" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">-10</Value>
+    </Setting>
+    <Setting Name="CoverRender_Default_ImageOffsetXMin" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="CoverRender_Default_ImageOffsetXMax" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="CoverRender_Default_ImageOffsetYMin" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="CoverRender_Default_ImageOffsetYMax" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Http_GalleryHttpEnhancedPathFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">{0}/Galleries#{1}</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
