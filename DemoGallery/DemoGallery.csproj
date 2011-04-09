@@ -107,7 +107,7 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WebGalleryProcessor.csproj">
+    <ProjectReference Include="..\WebGalleryProcessor\WebGalleryProcessor.csproj">
       <Project>{35AC47DC-5070-46B3-AEAD-92AF8F744101}</Project>
       <Name>WebGalleryProcessor</Name>
     </ProjectReference>
