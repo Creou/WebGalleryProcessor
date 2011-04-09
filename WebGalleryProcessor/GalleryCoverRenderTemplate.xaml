@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="WebGalleryProcessor.GalleryCoverRenderTemplate"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             Background="Transparent">
+    <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Canvas Name="outputData" Width="220" Height="200" Background="Transparent" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <Border Name="bdrThumbBorder" VerticalAlignment="Center" HorizontalAlignment="Center" Width="220" Height="200" BorderBrush="Black" BorderThickness="1">
+                <StackPanel>
+
+                    <Image Name="imgThumb" Grid.Row="0" Margin="10,10,10,0" Width="200" Height="150" Stretch="Uniform"></Image>
+                    <Label Name="lblTitle" Margin="-15" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Domestic Manners" FontSize="30" FontWeight="Bold">Title
+                    <!--<Label Name="lblTitle" Margin="-15" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="file:///C:/Users/Simon/Documents/My Dropbox/Website/SpsDotCom/SpsDotCom/Content/#Domestic Manners" FontSize="30" FontWeight="Bold">Title-->
+                        <Label.RenderTransform>
+                            <RotateTransform x:Name="rotationLabelTransform" CenterX="110" CenterY="25"></RotateTransform>
+                        </Label.RenderTransform>                        
+                    </Label>
+                    
+                    <StackPanel.Background>
+                        <RadialGradientBrush GradientOrigin="0,1">
+                            <GradientStop Color="LightBlue" Offset="-0.2"></GradientStop>
+                            <GradientStop Color="White" Offset="1"></GradientStop>
+                        </RadialGradientBrush>
+                    </StackPanel.Background>
+
+                </StackPanel >
+                <Border.RenderTransform>
+                    <RotateTransform x:Name="rotationTransform" CenterX="110" CenterY="100"></RotateTransform>
+                </Border.RenderTransform>
+                <Border.Effect>
+                    <DropShadowEffect ShadowDepth="10"></DropShadowEffect>
+                </Border.Effect>
+            </Border>
+        </Canvas>
+    </Grid>
+</UserControl>
